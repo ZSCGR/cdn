@@ -1108,14 +1108,14 @@ var
         else
         {
             let protocol = location.protocol === "http:" ? "http:" : "https:";
-            return protocol + "//html.chgr.cc/static/webs/life/" + pattern_path + id;
+            return protocol + "//alist.chgr.cc/local/html/游戏/" + pattern_path + id;
         }
     }
 
     function view_link(id)
     {
         let protocol = location.protocol === "http:" ? "http:" : "https:";
-        return protocol + "//html.chgr.cc/static/webs/life/?pattern=" + id;
+        return protocol + "//alist.chgr.cc/local/html/游戏/?pattern=" + id;
     }
 
     /**
@@ -1644,7 +1644,7 @@ var
         }
         else
         {
-            window.history.replaceState(null, "", "/life/");
+            window.history.replaceState(null, "", "/local/html/游戏/");
         }
     }
 
